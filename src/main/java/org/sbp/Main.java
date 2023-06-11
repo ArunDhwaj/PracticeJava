@@ -1,14 +1,12 @@
 package org.sbp;
 
+import java.lang.ref.PhantomReference;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
 import org.sbp.lambda.LambdaTest;
-import org.sbp.multithreads.AnotherThread;
-import org.sbp.multithreads.MyRunnable;
-import org.sbp.multithreads.ThreadCountExperment;
-import org.sbp.multithreads.ThreadExperiment;
+import org.sbp.multithreads.*;
 import org.sbp.oop.collections.MyDeque;
 import org.sbp.oop.inheritance.Employee;
 import org.sbp.qa.MyList;
@@ -59,7 +57,11 @@ public class Main {
 //        ThreadExperiment threadExperiment = new ThreadExperiment();
 //        threadExperiment.experiment();
 
-        ThreadCountExperment threadCountExperment = new ThreadCountExperment();
-        threadCountExperment.experiment();
+//        ThreadCountExperment threadCountExperment = new ThreadCountExperment();
+//        threadCountExperment.experiment();
+
+        ProducerCocnsumerExperiment producerCocnsumerExperiment = new ProducerCocnsumerExperiment();
+        producerCocnsumerExperiment.experiment();
+
     }
 }

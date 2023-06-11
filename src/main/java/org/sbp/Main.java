@@ -7,6 +7,7 @@ import java.util.Collections;
 import org.sbp.lambda.LambdaTest;
 import org.sbp.multithreads.AnotherThread;
 import org.sbp.multithreads.MyRunnable;
+import org.sbp.multithreads.ThreadCountExperment;
 import org.sbp.multithreads.ThreadExperiment;
 import org.sbp.oop.collections.MyDeque;
 import org.sbp.oop.inheritance.Employee;
@@ -55,7 +56,10 @@ public class Main {
 //        //lambdaTest.compratorDemo();
 //        lambdaTest.eventListner();
 //
-        ThreadExperiment threadExperiment = new ThreadExperiment();
-        threadExperiment.experiment();
+//        ThreadExperiment threadExperiment = new ThreadExperiment();
+//        threadExperiment.experiment();
+
+        ThreadCountExperment threadCountExperment = new ThreadCountExperment();
+        threadCountExperment.experiment();
     }
 }

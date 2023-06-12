@@ -60,8 +60,10 @@ public class Main {
 //        ThreadCountExperment threadCountExperment = new ThreadCountExperment();
 //        threadCountExperment.experiment();
 
-        ProducerCocnsumerExperiment producerCocnsumerExperiment = new ProducerCocnsumerExperiment();
-        producerCocnsumerExperiment.experiment();
+//        ProducerCocnsumerExperiment producerCocnsumerExperiment = new ProducerCocnsumerExperiment();
+//        producerCocnsumerExperiment.experiment();
 
+        EvenOddExperiment evenOddExperiment = new EvenOddExperiment();
+        evenOddExperiment.experiment();
     }
 }
